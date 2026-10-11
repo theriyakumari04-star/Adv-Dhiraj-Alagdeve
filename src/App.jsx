@@ -493,6 +493,15 @@ function App() {
             </div>
 
             {/* RIGHT IMAGE */}
+            {/* MOBILE HERO IMAGE */}
+<div className="relative mx-auto mt-8 block w-full max-w-md overflow-hidden rounded-2xl border border-white/10 lg:hidden">
+  <img
+    src="/advocate.png"
+    alt="Advocate portrait"
+    className="aspect-[4/3] w-full object-cover object-top"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-[#050c15]/50 via-transparent to-transparent" />
+</div>
 
             <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[59%] lg:block">
               <div className="image-reveal absolute inset-0">
@@ -605,11 +614,16 @@ function App() {
 
               <div className="absolute -inset-3 rounded-3xl border border-[#d9a84e]/20" />
 
-              <img
-                src="/advocate-about.jpg"
-                alt="Advocate"
-                className="relative aspect-[4/5] w-full rounded-3xl object-cover"
-              />
+             
+<div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl sm:aspect-[5/4] lg:aspect-[4/5]">
+  <img
+    src="advocate-about.png"
+    alt="Advocate"
+    className="h-full w-full object-cover object-top"
+    loading="lazy"
+  />
+</div>
+
 
               <div className="absolute bottom-5 left-5 right-5 rounded-2xl border border-white/10 bg-[#050c15]/85 p-6 backdrop-blur-xl">
                 <p className="text-sm uppercase tracking-widest text-[#d9a84e]">
