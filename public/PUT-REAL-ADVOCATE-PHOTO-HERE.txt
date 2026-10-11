@@ -1,0 +1,2 @@
+Replace this folder's missing advocate.png with the actual advocate portrait.
+Recommended: public/advocate.png
